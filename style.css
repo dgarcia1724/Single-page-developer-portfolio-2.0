@@ -1,0 +1,313 @@
+:root {
+  --black: #151515;
+  --darkGray: #242424;
+  --lightGray: #d9d9d9;
+  --white: #ffffff;
+  --mainBlue: #0cf2d7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+
+  background: var(--black);
+  color: var(--white);
+
+  font-size: 1.8rem;
+}
+
+/******* MOBILE *********/
+
+.topSection {
+  padding: 2rem 1.6rem 0;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 4.9rem;
+}
+
+header > h1 {
+  margin-bottom: 2rem;
+
+  font-weight: 700;
+  font-size: 2.4rem;
+  letter-spacing: -0.33px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 2.6rem;
+}
+
+.socials a {
+  color: var(--white);
+}
+
+.socials a:hover {
+  color: var(--mainBlue);
+}
+
+/******* HERO SECTION  *******/
+
+.heroSection {
+}
+
+.meImg {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+
+  background: url(./assets/myImages/meMobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center 70%;
+
+  width: 17.4rem;
+  height: 24.2rem;
+}
+
+/******* Hero Text  ******/
+
+.heroText {
+}
+
+.heroText h1 {
+  margin-bottom: 2.4rem;
+
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 40px;
+  letter-spacing: -1.14px;
+}
+
+.heroText h1 > span {
+  border-bottom: 4px solid var(--mainBlue);
+}
+
+.heroText p {
+  margin-bottom: 2.4rem;
+
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+
+/******* button  *******/
+.btn {
+  margin-bottom: 8rem;
+
+  background: transparent;
+  border: none;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--mainBlue);
+
+  color: var(--white);
+  text-transform: uppercase;
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: 2.29px;
+}
+
+.btn:hover {
+  color: var(--mainBlue);
+}
+
+.grayHorizantalLine {
+  width: 100%;
+  height: 0.1rem;
+  background: var(--lightGray);
+}
+
+/******** SKILLS Section  *******/
+.skillsSection {
+  padding: 4rem 1.6rem 0;
+  text-align: center;
+}
+
+.skillBox {
+  margin-bottom: 2.4rem;
+}
+
+.skillBox h1 {
+  margin-bottom: 0.1rem;
+
+  font-weight: 700;
+  font-size: 3.2rem;
+  letter-spacing: -1px;
+}
+
+.skillBox p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  letter-spacing: 0px;
+
+  color: var(--lightGray);
+}
+
+.secondGrayLine {
+  margin-top: 4rem;
+}
+
+/******** PROJECTS Section  *******/
+/******** PROJECTS Section  *******/
+/******** PROJECTS Section  *******/
+.projectsSection {
+  padding: 8rem 1.6rem;
+}
+
+.projectsHeader {
+  margin-bottom: 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projectsHeader > h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: -1.14px;
+}
+
+.projectsHeader button {
+  margin: unset;
+}
+
+/********* Projects Card Container **********/
+
+.projectCard {
+  margin-bottom: 4rem;
+}
+
+.paradiseImg {
+  margin-bottom: 2rem;
+  background: url(https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80)
+    no-repeat;
+  background-size: cover;
+  height: 25.3rem;
+}
+
+.projectCard > h2 {
+  margin-bottom: 0.7rem;
+
+  font-weight: 700;
+  font-size: 2.4rem;
+  letter-spacing: 0px;
+
+  text-transform: uppercase;
+}
+
+.projectCardSkills {
+  margin-bottom: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  gap: 2rem;
+}
+
+.projectCardSkills > p {
+  font-weight: 500;
+  font-size: 1.8rem;
+  letter-spacing: 0px;
+
+  color: var(--lightGray);
+  text-transform: uppercase;
+}
+
+.projectCardViewProject {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  gap: 3rem;
+}
+
+.projectCardViewProject button {
+  margin: unset;
+}
+
+.dogsImg {
+  margin-bottom: 2rem;
+  background: url(https://images.unsplash.com/photo-1494947665470-20322015e3a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRvZ3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60)
+    no-repeat;
+  background-size: cover;
+  height: 25.3rem;
+}
+
+.sportsImg {
+  margin-bottom: 2rem;
+  background: url(https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80)
+    no-repeat;
+  background-size: cover;
+  height: 25.3rem;
+}
+
+/********* FOOTER  ********/
+/********* FOOTER  ********/
+/********* FOOTER  ********/
+
+footer {
+  padding: 6rem 1.6rem;
+
+  text-align: center;
+  background-color: var(--darkGray);
+}
+
+footer h1 {
+  margin-bottom: 2rem;
+
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: -1.14px;
+}
+
+footer p {
+  margin-bottom: 5rem;
+
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 26px;
+  letter-spacing: 0px;
+
+  color: var(--lightGray);
+}
+
+footer h2 {
+  margin-bottom: 8.7rem;
+
+  font-weight: 700;
+  font-size: 2.4rem;
+  letter-spacing: -0.33px;
+}
+
+/********* BOTTOM Footer ***********/
+
+.bottomFooter {
+  margin-top: 3.9rem;
+}
+
+.bottomFooter h3 {
+  margin-bottom: 2rem;
+
+  font-weight: 700;
+  font-size: 2.4rem;
+  letter-spacing: -0.33px;
+}
